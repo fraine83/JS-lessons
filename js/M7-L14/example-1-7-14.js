@@ -19,4 +19,6 @@ document.addEventListener(
 		eventScrollCounter.throttling += 1;
 		outputScrollThrottling.innerText = eventScrollCounter.throttling;
 	}, 1500)
+	// underscore (_) in _.throttle means that this method came from lodash library
+// second parameter ofd the throttle method is time in milliseconds
 );
